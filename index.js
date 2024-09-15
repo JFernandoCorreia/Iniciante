@@ -1,3 +1,5 @@
+import fs from "fs";import fs from "node:fs";
+
 const { select, input, checkbox } = require('@inquirer/prompts')
 const fs = require("fs").promises
 
